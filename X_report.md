@@ -2,8 +2,8 @@
 
 **In short:** a helper with 22 learned numbers picks the learning rate by itself, within a single training run.
 - On images it beats AdamW, even when both are pushed to their best settings: 73.6% vs 70.1%.
-- On text it ties AdamW. AdamW's best is 0.6% better, and the helper's normal setting is 0.8% better.
-- It uses about 7% of the compute of normal AdamW tuning.
+- On text it ties AdamW. Best test loss: AdamW 0.919 vs helper 0.925. Normal setting: AdamW 0.980 vs helper 0.972.
+- GPU energy (Tiny ImageNet, tuning included): 9,754 J vs AdamW's 131,389 J.
 
 **The idea.** Picking a good learning rate usually means trying many values. AdamW was tuned the usual way:
 train 13 times, once per learning rate, and keep the best. The helper instead picks the learning rate for
@@ -18,11 +18,12 @@ Every number is the average of 3 runs.
 | | Tuned AdamW | Helper |
 |---|---|---|
 | Tiny ImageNet accuracy | 66.9% | **71.6%** |
-| Tiny ImageNet steps to reach the target | 1650 | **517** (3.2x faster) |
+| Tiny ImageNet steps to reach the target | 1650 | **517** |
 | TinyStories test loss (lower is better) | 0.980 | **0.972** |
 | TinyStories character accuracy | 69.6% | **69.9%** |
-| Total GPU energy, tuning runs included | 100% | **~7%** (1 run instead of 13 + 1) |
-| GPU memory | same | same |
+| Tiny ImageNet GPU energy, tuning runs included | 131,389 J | **9,754 J** (1 run instead of 13 + 1) |
+| TinyStories GPU energy, tuning runs included | 60,748 J | **4,574 J** |
+| GPU memory (Tiny ImageNet / TinyStories) | 535 / 173 MB | 535 / 170 MB |
 
 ## 2. Both pushed to their limit (the helper was not retrained)
 

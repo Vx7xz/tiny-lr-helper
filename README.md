@@ -14,10 +14,11 @@ The helper is used as is. AdamW is tuned the usual way: 13 runs, one per learnin
 | | Tuned AdamW | Helper |
 |---|---|---|
 | Tiny ImageNet accuracy | 66.9% | **71.6%** |
-| Tiny ImageNet steps to reach the target | 1650 | **517** (3.2x faster) |
+| Tiny ImageNet steps to reach the target | 1650 | **517** |
 | TinyStories test loss (lower is better) | 0.980 | **0.972** |
 | TinyStories character accuracy | 69.6% | **69.9%** |
-| Total GPU energy, tuning runs included | 100% | **~7%** (1 run instead of 13 + 1) |
+| Tiny ImageNet GPU energy, tuning runs included | 131,389 J | **9,754 J** (1 run instead of 13 + 1) |
+| TinyStories GPU energy, tuning runs included | 60,748 J | **4,574 J** |
 | GPU memory | 535 / 173 MB | 535 / 170 MB |
 
 ### Both pushed to their limit
