@@ -21,7 +21,7 @@ Every number is the average of 3 runs.
 | Tiny ImageNet steps to reach the target | 1650 | **517** (3.2x faster) |
 | TinyStories test loss (lower is better) | 0.980 | **0.972** |
 | TinyStories character accuracy | 69.6% | **69.9%** |
-| Total compute | 100% | **~7%** (1 run instead of 13 + 1) |
+| Total GPU energy, tuning runs included | 100% | **~7%** (1 run instead of 13 + 1) |
 | GPU memory | same | same |
 
 ## 2. Both pushed to their limit (the helper was not retrained)
