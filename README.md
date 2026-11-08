@@ -1,7 +1,6 @@
 # Tiny LR Helper
 
-A tiny learned helper of 22 numbers that picks the learning rate for every layer at every training step,
-inside a single run, with no learning-rate search.
+A tiny learned helper faster than any neural network training methods.
 
 ## Results vs tuned AdamW
 
