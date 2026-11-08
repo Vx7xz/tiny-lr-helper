@@ -1,0 +1,7 @@
+﻿
+=== cnn: 3000 steps, batch 128, seeds [500, 501, 502], helpers only ===
+target: validation accuracy 64.680 (given)
+method                       test loss   test metric  steps to target  s/run  J/run  GPU MB RAM MB
+pg2_v5.pt (pg)                  1.8519        71.60%       517 [500, 500, 550]   49.91   9754     535   1175
+
+

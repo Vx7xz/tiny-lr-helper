@@ -1,0 +1,27 @@
+﻿
+cnn tinyimagenet c=16 aug=0 T=2000 seed=1600 2.0591 3.5467 4.3901 4.6619 5.4491  best x10^-0.50  MISS
+cnn tinyimagenet c=16 aug=0 T=2000 seed=1601 3.9868 5.7606 6.1989 7.2534 7.9310  best x10^-0.50  MISS
+cnn tinyimagenet c=16 aug=1 T=2000 seed=1600 1.0597 1.0078 1.1219 1.1254 1.1443  best x10^-0.25
+cnn tinyimagenet c=16 aug=1 T=2000 seed=1601 1.2357 1.2255 1.3128 1.5141 1.5238  best x10^-0.25
+cnn tinyimagenet c=32 aug=0 T=2000 seed=1600 3.2566 3.9859 4.6799 4.9409 6.6295  best x10^-0.50  MISS
+cnn tinyimagenet c=32 aug=0 T=2000 seed=1601 4.2279 5.2578 5.5273 5.6288 7.4374  best x10^-0.50  MISS
+cnn tinyimagenet c=32 aug=1 T=2000 seed=1600 1.0709 1.1333 1.3327 1.4170 1.3006  best x10^-0.50  MISS
+cnn tinyimagenet c=32 aug=1 T=2000 seed=1601 1.1931 1.4019 1.5366 1.8177 1.6792  best x10^-0.50  MISS
+lm tinystories d=64 L=2 T=1000 seed=1600     1.2821 1.2341 1.2154 1.2170 1.2936  best x10^+0.00
+lm tinystories d=64 L=2 T=1000 seed=1601     1.2817 1.2364 1.2143 1.2202 1.2608  best x10^+0.00
+lm tinystories d=128 L=2 T=1000 seed=1600    1.2189 1.1597 1.1347 1.1366 1.1814  best x10^+0.00
+lm tinystories d=128 L=2 T=1000 seed=1601    1.2290 1.1705 1.1319 1.1299 1.1699  best x10^+0.25
+lm tinystories d=64 L=4 T=1000 seed=1600     1.2177 1.1582 1.1434 1.1500 1.3650  best x10^+0.00
+lm tinystories d=64 L=4 T=1000 seed=1601     1.2276 1.1637 1.1387 1.1561 1.3471  best x10^+0.00
+lm tinystories d=128 L=4 T=2000 seed=1600    1.0649 1.0133 0.9996 0.9917 1.1431  best x10^+0.25
+lm tinystories d=128 L=4 T=2000 seed=1601    1.0685 1.0133 1.0005 0.9958 1.0529  best x10^+0.25
+
+=== pg2_v5.pt: lr-choice accuracy on 16 tasks (fresh seeds, test datasets) ===
+all          ( 16): correct  62.5%  exactly right  31.2%  mean regret 19.77%  misses: lr too high 6, too low 0
+cnn          (  8): correct  25.0%  exactly right   0.0%  mean regret 39.35%  misses: lr too high 6, too low 0
+lm           (  8): correct 100.0%  exactly right  62.5%  mean regret 0.18%  misses: lr too high 0, too low 0
+tinyimagenet (  8): correct  25.0%  exactly right   0.0%  mean regret 39.35%  misses: lr too high 6, too low 0
+tinystories  (  8): correct 100.0%  exactly right  62.5%  mean regret 0.18%  misses: lr too high 0, too low 0
+seed-averaged per config: 5/8 correct
+
+

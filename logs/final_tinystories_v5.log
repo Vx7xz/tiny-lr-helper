@@ -1,0 +1,7 @@
+﻿
+=== transformer: 3000 steps, batch 128, seeds [500, 501, 502], helpers only ===
+target: validation loss 0.995 (given)
+method                       test loss   test metric  steps to target  s/run  J/run  GPU MB RAM MB
+pg2_v5.pt (pg)                  0.9717        69.88%      2250 [2300, 2200, 2250]   26.47   4574     170   1083
+
+

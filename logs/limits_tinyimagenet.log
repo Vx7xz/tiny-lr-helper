@@ -1,0 +1,119 @@
+﻿
+=== cnn limits: search on seed 0, then seeds [500, 501, 502] ===
+  AdamW T=1500 lr_fn=-4.5, wd=0                       val loss 1.5471  val metric 51.00%
+  AdamW T=1500 lr_fn=-4.5, wd=0.01                    val loss 1.5472  val metric 50.80%
+  AdamW T=1500 lr_fn=-4.5, wd=0.1                     val loss 1.5473  val metric 50.80%
+  AdamW T=1500 lr_fn=-4.5, wd=0.5                     val loss 1.5485  val metric 50.40%
+  AdamW T=1500 lr_fn=-4.25, wd=0                      val loss 1.4630  val metric 53.20%
+  AdamW T=1500 lr_fn=-4.25, wd=0.01                   val loss 1.4650  val metric 53.40%
+  AdamW T=1500 lr_fn=-4.25, wd=0.1                    val loss 1.4585  val metric 53.40%
+  AdamW T=1500 lr_fn=-4.25, wd=0.5                    val loss 1.4629  val metric 53.80%
+  AdamW T=1500 lr_fn=-4, wd=0                         val loss 1.3539  val metric 56.60%
+  AdamW T=1500 lr_fn=-4, wd=0.01                      val loss 1.3534  val metric 56.80%
+  AdamW T=1500 lr_fn=-4, wd=0.1                       val loss 1.3512  val metric 56.80%
+  AdamW T=1500 lr_fn=-4, wd=0.5                       val loss 1.3561  val metric 56.00%
+  AdamW T=1500 lr_fn=-3.75, wd=0                      val loss 1.2526  val metric 62.40%
+  AdamW T=1500 lr_fn=-3.75, wd=0.01                   val loss 1.2529  val metric 61.40%
+  AdamW T=1500 lr_fn=-3.75, wd=0.1                    val loss 1.2605  val metric 61.60%
+  AdamW T=1500 lr_fn=-3.75, wd=0.5                    val loss 1.2624  val metric 61.00%
+  AdamW T=1500 lr_fn=-3.5, wd=0                       val loss 1.1168  val metric 64.60%
+  AdamW T=1500 lr_fn=-3.5, wd=0.01                    val loss 1.1175  val metric 65.00%
+  AdamW T=1500 lr_fn=-3.5, wd=0.1                     val loss 1.1193  val metric 64.20%
+  AdamW T=1500 lr_fn=-3.5, wd=0.5                     val loss 1.1225  val metric 64.60%
+  AdamW T=1500 lr_fn=-3.25, wd=0                      val loss 1.1344  val metric 68.20%
+  AdamW T=1500 lr_fn=-3.25, wd=0.01                   val loss 1.1264  val metric 67.20%
+  AdamW T=1500 lr_fn=-3.25, wd=0.1                    val loss 1.1255  val metric 68.00%
+  AdamW T=1500 lr_fn=-3.25, wd=0.5                    val loss 1.1098  val metric 66.00%
+  AdamW T=1500 lr_fn=-3, wd=0                         val loss 1.2839  val metric 67.60%
+  AdamW T=1500 lr_fn=-3, wd=0.01                      val loss 1.3245  val metric 65.60%
+  AdamW T=1500 lr_fn=-3, wd=0.1                       val loss 1.3085  val metric 64.80%
+  AdamW T=1500 lr_fn=-3, wd=0.5                       val loss 1.2015  val metric 66.40%
+  AdamW T=3000 lr_fn=-4.5, wd=0                       val loss 1.4299  val metric 55.40%
+  AdamW T=3000 lr_fn=-4.5, wd=0.01                    val loss 1.4280  val metric 54.60%
+  AdamW T=3000 lr_fn=-4.5, wd=0.1                     val loss 1.4320  val metric 54.80%
+  AdamW T=3000 lr_fn=-4.5, wd=0.5                     val loss 1.4341  val metric 54.80%
+  AdamW T=3000 lr_fn=-4.25, wd=0                      val loss 1.3259  val metric 58.60%
+  AdamW T=3000 lr_fn=-4.25, wd=0.01                   val loss 1.3295  val metric 58.40%
+  AdamW T=3000 lr_fn=-4.25, wd=0.1                    val loss 1.3238  val metric 58.20%
+  AdamW T=3000 lr_fn=-4.25, wd=0.5                    val loss 1.3356  val metric 57.20%
+  AdamW T=3000 lr_fn=-4, wd=0                         val loss 1.2270  val metric 62.20%
+  AdamW T=3000 lr_fn=-4, wd=0.01                      val loss 1.2232  val metric 62.60%
+  AdamW T=3000 lr_fn=-4, wd=0.1                       val loss 1.2251  val metric 62.20%
+  AdamW T=3000 lr_fn=-4, wd=0.5                       val loss 1.2410  val metric 61.40%
+  AdamW T=3000 lr_fn=-3.75, wd=0                      val loss 1.1839  val metric 64.20%
+  AdamW T=3000 lr_fn=-3.75, wd=0.01                   val loss 1.1697  val metric 63.80%
+  AdamW T=3000 lr_fn=-3.75, wd=0.1                    val loss 1.1903  val metric 63.60%
+  AdamW T=3000 lr_fn=-3.75, wd=0.5                    val loss 1.1885  val metric 64.20%
+  AdamW T=3000 lr_fn=-3.5, wd=0                       val loss 1.1684  val metric 67.80%
+  AdamW T=3000 lr_fn=-3.5, wd=0.01                    val loss 1.2022  val metric 67.00%
+  AdamW T=3000 lr_fn=-3.5, wd=0.1                     val loss 1.1657  val metric 66.40%
+  AdamW T=3000 lr_fn=-3.5, wd=0.5                     val loss 1.1076  val metric 67.40%
+  AdamW T=3000 lr_fn=-3.25, wd=0                      val loss 1.6705  val metric 66.80%
+  AdamW T=3000 lr_fn=-3.25, wd=0.01                   val loss 1.6471  val metric 66.80%
+  AdamW T=3000 lr_fn=-3.25, wd=0.1                    val loss 1.4889  val metric 70.00%
+  AdamW T=3000 lr_fn=-3.25, wd=0.5                    val loss 1.3328  val metric 69.80%
+  AdamW T=3000 lr_fn=-3, wd=0                         val loss 2.1396  val metric 67.40%
+  AdamW T=3000 lr_fn=-3, wd=0.01                      val loss 2.1784  val metric 66.00%
+  AdamW T=3000 lr_fn=-3, wd=0.1                       val loss 2.0527  val metric 65.00%
+  AdamW T=3000 lr_fn=-3, wd=0.5                       val loss 1.6074  val metric 65.00%
+  AdamW T=6000 lr_fn=-4.5, wd=0                       val loss 1.3135  val metric 59.40%
+  AdamW T=6000 lr_fn=-4.5, wd=0.01                    val loss 1.3153  val metric 59.60%
+  AdamW T=6000 lr_fn=-4.5, wd=0.1                     val loss 1.3175  val metric 59.40%
+  AdamW T=6000 lr_fn=-4.5, wd=0.5                     val loss 1.3182  val metric 58.80%
+  AdamW T=6000 lr_fn=-4.25, wd=0                      val loss 1.2306  val metric 63.40%
+  AdamW T=6000 lr_fn=-4.25, wd=0.01                   val loss 1.2293  val metric 62.80%
+  AdamW T=6000 lr_fn=-4.25, wd=0.1                    val loss 1.2338  val metric 63.80%
+  AdamW T=6000 lr_fn=-4.25, wd=0.5                    val loss 1.2398  val metric 63.00%
+  AdamW T=6000 lr_fn=-4, wd=0                         val loss 1.1973  val metric 65.00%
+  AdamW T=6000 lr_fn=-4, wd=0.01                      val loss 1.1998  val metric 63.80%
+  AdamW T=6000 lr_fn=-4, wd=0.1                       val loss 1.1995  val metric 64.60%
+  AdamW T=6000 lr_fn=-4, wd=0.5                       val loss 1.1874  val metric 64.40%
+  AdamW T=6000 lr_fn=-3.75, wd=0                      val loss 1.4167  val metric 64.40%
+  AdamW T=6000 lr_fn=-3.75, wd=0.01                   val loss 1.4686  val metric 61.00%
+  AdamW T=6000 lr_fn=-3.75, wd=0.1                    val loss 1.4166  val metric 62.60%
+  AdamW T=6000 lr_fn=-3.75, wd=0.5                    val loss 1.2233  val metric 64.40%
+  AdamW T=6000 lr_fn=-3.5, wd=0                       val loss 2.1274  val metric 66.40%
+  AdamW T=6000 lr_fn=-3.5, wd=0.01                    val loss 1.9644  val metric 67.60%
+  AdamW T=6000 lr_fn=-3.5, wd=0.1                     val loss 1.8990  val metric 68.40%
+  AdamW T=6000 lr_fn=-3.5, wd=0.5                     val loss 1.5915  val metric 67.60%
+  AdamW T=6000 lr_fn=-3.25, wd=0                      val loss 2.5193  val metric 71.20%
+  AdamW T=6000 lr_fn=-3.25, wd=0.01                   val loss 2.5319  val metric 69.80%
+  AdamW T=6000 lr_fn=-3.25, wd=0.1                    val loss 2.2423  val metric 69.60%
+  AdamW T=6000 lr_fn=-3.25, wd=0.5                    val loss 1.7212  val metric 68.80%
+  AdamW T=6000 lr_fn=-3, wd=0                         val loss 2.9092  val metric 68.60%
+  AdamW T=6000 lr_fn=-3, wd=0.01                      val loss 2.7912  val metric 68.80%
+  AdamW T=6000 lr_fn=-3, wd=0.1                       val loss 2.5053  val metric 68.40%
+  AdamW T=6000 lr_fn=-3, wd=0.5                       val loss 1.7990  val metric 67.20%
+BEST AdamW (lr x wd x steps), avg: T=6000 lr_fn=-3.25, wd=0 | test loss 2.5448  test metric 70.07% (seeds 67.60 71.40 
+71.20) | search 84 runs 4748 s, final run 99.5 s, 20122 J, GPU 537 MB
+  pg2_v T=1500 lr_scale=0.316                         val loss 1.1253  val metric 67.20%
+  pg2_v T=1500 lr_scale=0.422                         val loss 1.1083  val metric 66.80%
+  pg2_v T=1500 lr_scale=0.562                         val loss 1.1642  val metric 68.80%
+  pg2_v T=1500 lr_scale=0.75                          val loss 1.2556  val metric 68.40%
+  pg2_v T=1500 lr_scale=1                             val loss 1.2915  val metric 70.60%
+  pg2_v T=1500 lr_scale=1.33                          val loss 1.3052  val metric 70.20%
+  pg2_v T=1500 lr_scale=1.78                          val loss 1.3707  val metric 69.40%
+  pg2_v T=1500 lr_scale=2.37                          val loss 1.3283  val metric 70.40%
+  pg2_v T=1500 lr_scale=3.16                          val loss 1.4318  val metric 71.20%
+  pg2_v T=3000 lr_scale=0.316                         val loss 1.3467  val metric 67.80%
+  pg2_v T=3000 lr_scale=0.422                         val loss 1.4890  val metric 67.00%
+  pg2_v T=3000 lr_scale=0.562                         val loss 1.7493  val metric 69.40%
+  pg2_v T=3000 lr_scale=0.75                          val loss 1.7868  val metric 71.40%
+  pg2_v T=3000 lr_scale=1                             val loss 1.8138  val metric 71.40%
+  pg2_v T=3000 lr_scale=1.33                          val loss 1.9774  val metric 71.60%
+  pg2_v T=3000 lr_scale=1.78                          val loss 1.8815  val metric 69.40%
+  pg2_v T=3000 lr_scale=2.37                          val loss 1.9279  val metric 70.20%
+  pg2_v T=3000 lr_scale=3.16                          val loss 1.9835  val metric 70.00%
+  pg2_v T=6000 lr_scale=0.316                         val loss 2.1559  val metric 67.20%
+  pg2_v T=6000 lr_scale=0.422                         val loss 2.1345  val metric 68.40%
+  pg2_v T=6000 lr_scale=0.562                         val loss 2.3183  val metric 68.80%
+  pg2_v T=6000 lr_scale=0.75                          val loss 2.3392  val metric 69.40%
+  pg2_v T=6000 lr_scale=1                             val loss 2.4516  val metric 69.60%
+  pg2_v T=6000 lr_scale=1.33                          val loss 2.2761  val metric 72.40%
+  pg2_v T=6000 lr_scale=1.78                          val loss 2.4137  val metric 68.60%
+  pg2_v T=6000 lr_scale=2.37                          val loss 2.1404  val metric 70.80%
+  pg2_v T=6000 lr_scale=3.16                          val loss 2.2292  val metric 71.40%
+BEST pg2_v5.pt (lr scale x steps): T=6000 lr_scale=1.33 | test loss 2.2798  test metric 73.60% (seeds 73.40 73.20 
+74.20) | search 27 runs 1541 s, final run 102.6 s, 19965 J, GPU 535 MB
+
+

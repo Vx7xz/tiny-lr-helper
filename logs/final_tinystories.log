@@ -1,0 +1,12 @@
+﻿
+=== transformer: 3000 steps, batch 128, seeds [500, 501, 502] ===
+grid search (13 runs, one after another): best lr 1e-2.25, 324 GPU s, 56159 J, GPU 237 MB, RAM 1051 MB
+target: validation loss 0.995 (102% of tuned AdamW's final)
+method                       test loss test char acc  vs tuned  steps to target  s/run  J/run GPU %  GPU MB  CPU s RAM 
+MB J vs tuned
+AdamW + cosine, tuned           0.9803        69.62%    +0.000      2333 (0/3)  26.17   4589    87     173  22.42   
+1092         8%
+AdamW + cosine, tuned, avg      0.9820        69.60%    -0.002      2183 (3/3)  26.40   4599    86     176  22.82   
+1095         8%
+
+
